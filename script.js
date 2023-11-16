@@ -1,7 +1,7 @@
 // 1 Užduotis
 
-var legalAge = 20;
-var clientAge = 25;
+const legalAge = 20;
+const clientAge = 25;
 
 if (clientAge >= legalAge) {
     alert('Legal Age')
@@ -14,7 +14,7 @@ if (clientAge >= legalAge) {
 
 // // 2 Užduotis 
 
-var vardas = 'Deividas'.length
+const vardas = 'Deividas'.length
 
 if (vardas > 6){
     console.log('Ilgas Vardas')
@@ -24,7 +24,7 @@ if (vardas > 6){
 
 // // 3 Užduotis
 
-var myage = 23
+const myage = 23
 
 if (myage > 100 || myage < 0){
     console.log('Invalid age')
@@ -39,7 +39,7 @@ else if (myage >= 1 && myage <= 18){
  
 // // 4 Užduotis
 
-var car = 'BMW'
+const car = 'BMW'
 
 if (car == 'BMW' || car == 'Mini' || car =='Rolls-Royce'){
     console.log('BMW group')
